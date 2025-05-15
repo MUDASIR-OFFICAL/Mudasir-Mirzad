@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio SARDARR</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top" class="dark_theme">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1 class="h1 logo animate-logo">
+        <a href="#">Mudasir<span>.</span>Coder</a>
+      </h1>
+      
+
+      <div class="navbar-actions">
+
+        <select name="language" id="lang">
+          <option value="en">En</option>
+        </select>
+
+        <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
+          <span class="icon"></span>
+        </button>
+
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link">Skills</a>
+          </li>
+
+        
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article class="container">
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+
+        <figure class="hero-banner">
+
+          <picture>
+            <source srcset="./assets/images/hero-banner.png" media="(min-width: 768px)">
+            <source srcset="./assets/images/hero-banner-md.png" media="(min-width: 500px)">
+            <img src="./assets/images/hero-banner-sm.png" alt=""
+              class="w-100">
+          </picture>
+
+        </figure>
+
+        <div class="hero-content">
+
+          <h2 class="h2 hero-title"><span class="typing-text"></span><span class="cursor">|</span></h2>
+
+
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+
+        </div>
+
+        <ul class="hero-social-list">
+
+          <li>
+            <a href="https://www.instagram.com/mudasir_mz_offical/" class="hero-social-link">
+              <ion-icon name="logo-Instagram"></ion-icon>
+
+              <div class="tooltip">Instagram</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/mudasir_mz_offical/" class="hero-social-link">
+              <ion-icon name="logo-Facebook"></ion-icon>
+
+              <div class="tooltip">Facebook</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/mudasir_mz_offical/" class="hero-social-link">
+              <ion-icon name="logo-Twitter"></ion-icon>
+
+              <div class="tooltip">Twitter</div>
+            </a>
+          </li>
+
+        </ul>
+
+        <a href="https://www.hackthebox.com/" class="scroll-down">HTB</a>
+
+      </section>
+
+
+
+
+
+      <section class="stats" id="stats">
+        <ul class="stats-list">
+      
+          <li>
+            <a href="#" class="stats-card animate-card">
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-1.png" alt="Badge icon">
+              </div>
+              <h2 class="h2 card-title">
+                <span class="stat-number" data-target="3">0</span>+ 
+                <strong>Years of Experience</strong>
+              </h2>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </a>
+          </li>
+      
+          <li>
+            <a href="#" class="stats-card animate-card">
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-2.png" alt="Checkmark icon">
+              </div>
+              <h2 class="h2 card-title">
+                <span class="stat-number" data-target="32">0</span>+ 
+                <strong>Completed Tasks</strong>
+              </h2>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </a>
+          </li>
+      
+          <li>
+            <a href="#" class="stats-card animate-card">
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-3.png" alt="Peoples rating icon">
+              </div>
+              <h2 class="h2 card-title">
+                <span class="stat-number" data-target="27">0</span>+ 
+                <strong>Happy Clients</strong>
+              </h2>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </a>
+          </li>
+      
+        </ul>
+      </section>
+      
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" id="about">
+
+        <figure class="about-banner">
+          <img src="./assets/images/about-banner.png" alt="A man in a alice blue shirt with a thinking expression"
+            class="w-100">
+        </figure>
+
+        <div class="about-content section-content">
+
+          <p class="section-subtitle">About me</p>
+
+          <h2 class="h3 section-title">Certified Ethical Hacker</h2>
+
+          <p class="section-text">
+            I'm Mudasir Mirzad, a Certified Ethical Hacker with over 2 years of experience in protecting corporate networks and systems. I specialize in identifying vulnerabilities, securing infrastructures, and applying tools like firewalls and IDS to ensure robust cybersecurity.
+
+Passionate about ethical hacking and driven by curiosity, I focus on delivering reliable, proactive security solutions in today’s evolving digital landscape.
+          </p>
+
+          <div class="btn-group">
+            <button   class="btn btn-secondary">Hire me</button>
+
+          
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="skills" id="skills">
+
+        <div class="skills-content section-content">
+
+          <p class="section-subtitle">My skills</p>
+
+          <h2 class="h3 section-title">What I Know?</h2>
+
+          <p class="section-text">
+            Worked with top industry tools like Nessus and Acunetix vulnerability scanners
+Thoroughly analyzed the systems reports to filter out false positives and provided finished reports with true positives
+          </p>
+
+          <div class="skills-toggle" data-toggle-box>
+            <button class="toggle-btn active" data-toggle-btn>Skills</button>
+
+            <button class="toggle-btn" data-toggle-btn>Tools</button>
+          </div>
+
+        </div>
+
+        <div class="skills-box" data-skills-box>
+
+          <ul class="skills-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Bash</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/bash.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Python</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/python.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">JavaScript</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/javascript.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Assembly </div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/asm.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">SQL</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/sql.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">CMD</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/command.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Powershell</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/powershell.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Termux</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/termux.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Pi</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/pi.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Docker</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/docer.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Kali Linux</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/kali.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Arch</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/arch.png" alt="">
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+          <ul class="tools-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">map</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/nmap.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">AirNg</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/wifi.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">SETool</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/set.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Msploit</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/meta.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">sqli</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/sqli.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Fs</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/joker.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">AWS</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/aws.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Arduino</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/arduino.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Webpack</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/webpack.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Firebase</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/firebase.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">VS code</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/vs-code.png" alt="">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Git</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/git.png" alt="">
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECTS
+      -->
+
+    
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="contact" id="contact">
+
+        <div class="contact-content section-content">
+
+          <p class="section-subtitle">Contact</p>
+
+          <h2 class="h3 section-title">Have Any work? Please Drop a Message</h2>
+
+          <p class="section-text">
+            Get in touch and let me know how i can help. Fill out the form and i’ll be in touch as soon as possible.
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Address:</h3>
+
+                <address class="contact-info">
+                  127.0.0.1,Localhost
+                </address>
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Phone:</h3>
+
+                <a href="tel:01234567789" class="contact-info">+93 77 532 1471</a>
+
+                <a href="tel:09765432200" class="contact-info">+93 77 532 1471</a>
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Email:</h3>
+
+                <a href="mailto:info@mail.com" class="contact-info">mirzadmudasir03@gmail.com</a>
+
+                <a href="mailto:support@mail.com" class="contact-info">mudasirmirzad02@gmail.com</a>
+              </div>
+
+            </li>
+
+            <li>
+              <ul class="contac-social-list">
+
+                <li>
+                  <a href="https://www.instagram.com/mudasir_coder/" class="contact-social-link">
+                    <div class="tooltip">Instagram</div>
+
+                    <ion-icon name="logo-Instagram"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="contact-social-link">
+                    <div class="tooltip">Facebook</div>
+
+                    <ion-icon name="logo-Facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="contact-social-link">
+                    <div class="tooltip">Twitter</div>
+
+                    <ion-icon name="logo-Twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.instagram.com/mudasir_coder/" class="contact-social-link">
+                    <div class="tooltip">Youtube</div>
+
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <form action="" class="contact-form">
+
+          <div class="form-wrapper">
+
+            <label for="name" class="form-label">Name</label>
+
+            <div class="input-wrapper">
+
+              <input type="text" name="name" id="name" required placeholder="e.g Mudasir MZ" class="input-field">
+
+              <ion-icon name="person-circle"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="email" class="form-label">Email</label>
+
+            <div class="input-wrapper">
+
+              <input type="email" name="email" id="email" required placeholder="e.g mudasirmz@mail.com"
+                class="input-field">
+
+              <ion-icon name="mail"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="phone" class="form-label">Phone</label>
+
+            <div class="input-wrapper">
+
+              <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field">
+
+              <ion-icon name="call"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="message" class="form-label">Message</label>
+
+            <div class="input-wrapper">
+
+              <textarea name="message" id="message" required placeholder="Write message..."
+                class="input-field"></textarea>
+
+              <ion-icon name="chatbubbles"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send</button>
+
+        </form>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="h1 logo">
+        <a href="#">
+          Mudasir<span>.</span>Coder
+        </a>
+      </p>
+
+      <p class="copyright">
+        &copy; 2023 <a href="https://www.instagram.com/mudasir_mz_offical/">Mudasir Mirzad</a>. All rights reserved
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top title="Go to Top">
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+ 
+
+  <script>
+    const phrases = ["Eat", "Hack", "Sleep"];
+    const typingText = document.querySelector(".typing-text");
+    let currentPhraseIndex = 0;
+    let currentCharIndex = 0;
+    let isDeleting = false;
+    let typingDelay = 100;
+    let erasingDelay = 50;
+    let nextPhraseDelay = 1200;
+  
+    function type() {
+      const currentPhrase = phrases[currentPhraseIndex];
+      
+      if (isDeleting) {
+        typingText.textContent = currentPhrase.substring(0, currentCharIndex--);
+        if (currentCharIndex < 0) {
+          isDeleting = false;
+          currentPhraseIndex = (currentPhraseIndex + 1) % phrases.length;
+          setTimeout(type, 500);
+        } else {
+          setTimeout(type, erasingDelay);
+        }
+      } else {
+        typingText.textContent = currentPhrase.substring(0, currentCharIndex++);
+        if (currentCharIndex > currentPhrase.length) {
+          isDeleting = true;
+          setTimeout(type, nextPhraseDelay);
+        } else {
+          setTimeout(type, typingDelay);
+        }
+      }
+    }
+  
+    document.addEventListener("DOMContentLoaded", () => {
+      setTimeout(type, 1000);
+    });
+
+    const statNumbers = document.querySelectorAll('.stat-number');
+  const cards = document.querySelectorAll('.animate-card');
+  let statsStarted = false;
+
+  function animateStats() {
+    statNumbers.forEach(stat => {
+      const target = +stat.dataset.target;
+      const duration = 800;
+      const start = 0;
+      const increment = target / (duration / 30);
+
+      let count = start;
+      const updateCount = () => {
+        count += increment;
+        if (count >= target) {
+          stat.textContent = target;
+        } else {
+          stat.textContent = Math.floor(count);
+          requestAnimationFrame(updateCount);
+        }
+      };
+      updateCount();
+    });
+  }
+
+  function handleScroll() {
+    const section = document.getElementById('stats');
+    const sectionTop = section.getBoundingClientRect().top;
+    const triggerPoint = window.innerHeight - 100;
+
+    if (sectionTop < triggerPoint && !statsStarted) {
+      statsStarted = true;
+      animateStats();
+      cards.forEach(card => card.classList.add('show'));
+    }
+  }
+
+  window.addEventListener('scroll', handleScroll);
+  </script>
+  
+</body>
+
+</html>
